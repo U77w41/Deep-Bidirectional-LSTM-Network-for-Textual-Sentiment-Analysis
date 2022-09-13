@@ -7,7 +7,7 @@ dirs = [
     "notebooks",
     "saved_models",
     "src",
-    "web_scraping"
+    "data_collection"
 ]
 
 # Create the directories and write a .gitkeep file inside each directory (we cannot commit an empty directory in git)
