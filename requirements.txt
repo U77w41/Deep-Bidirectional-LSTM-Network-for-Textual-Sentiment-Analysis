@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+snscrape
+requests-html
+nltk
+urllib3
+BeautifulSoup
+selenium
