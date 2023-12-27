@@ -2,11 +2,13 @@
 
 ## Project Overview
 
-This project focuses on developing a Deep Bidirectional Long Short-Term Memory (biLSTM) network for Textual Sentiment Analysis in the context of cryptocurrency-related news and tweets. The goal is to create a model that can accurately analyze sentiment in textual data, particularly in the domain of cryptocurrency, to assist traders and investors in making informed decisions.
+This project focuses on developing a Deep Bidirectional Long Short-Term Memory (BiLSTM) network for Textual Sentiment Analysis in the context of cryptocurrency-related news and tweets. The goal is to create a model that can accurately analyze sentiment in textual data, particularly in the domain of cryptocurrency, to assist traders and investors in making informed decisions.
+
+![Image](https://kc-v2-config.s3.ap-northeast-1.amazonaws.com/reaper-image/648c2e1df0fbfa000198fa1f_Sentiment%20Analysis%20in%20Crypto%20Trading%201600%20900%20%281%29.png)
 
 ## Features
 
-1. **Deep biLSTM Model:** The core of the project involves the implementation of a deep biLSTM model using TensorFlow. Bidirectional LSTMs are well-suited for capturing contextual information in sequential data, making them effective for sentiment analysis tasks.
+1. **Deep BiLSTM Model:** The core of the project involves the implementation of a deep BiLSTM model using TensorFlow. Bidirectional LSTMs are well-suited for capturing contextual information in sequential data, making them effective for sentiment analysis tasks.
 
 2. **Training Data:** The model is trained using a dataset comprising human-annotated cryptocurrency-related news and tweets. This ensures that the model learns to recognize sentiment nuances specific to the cryptocurrency domain.
 
@@ -20,7 +22,7 @@ This project has the potential to significantly benefit crypto traders and inves
 
 ## Usage
 
-1. **Model Training:** The code for training the deep biLSTM model is provided in the `train_model.py` script. Adjust hyperparameters and paths as needed.
+1. **Model Training:** The code for training the deep BiLSTM model is provided in the `train_model.py` script. Adjust hyperparameters and paths as needed.
 
 2. **Cryptocurrency News Scraper:** The `google_news_scrap.py` script fetches the latest news articles. Configure sources and other parameters in the script.
 
