@@ -61,4 +61,4 @@ install requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
-Collected raw data using the .ipynb and .py files inside data_collection folder .
+Collect raw data using the .ipynb and .py files inside data_collection folder .
