@@ -22,9 +22,9 @@ This project has the potential to significantly benefit crypto traders and inves
 
 1. **Model Training:** The code for training the deep biLSTM model is provided in the `train_model.py` script. Adjust hyperparameters and paths as needed.
 
-2. **Cryptocurrency News Scraper:** The `crypto_news_scraper.py` script fetches the latest news articles. Configure sources and other parameters in the script.
+2. **Cryptocurrency News Scraper:** The `google_news_scrap.py` script fetches the latest news articles. Configure sources and other parameters in the script.
 
-3. **Twitter Scraper:** The `twitter_scraper.py` script collects real-time tweets related to cryptocurrencies. Ensure that API keys and access tokens are set up correctly.
+3. **Twitter Scraper:** The `tweets_scrap.py` script collects real-time tweets related to cryptocurrencies. Ensure that API keys and access tokens are set up correctly.
 
 4. **Inference:** Use the trained model for sentiment analysis on new data using the `predict_sentiment.py` script.
 
