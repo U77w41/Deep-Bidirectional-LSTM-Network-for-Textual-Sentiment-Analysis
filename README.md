@@ -1,7 +1,46 @@
-# Smart-Financial-Assistant
+# Deep Bidirectional LSTM Network for Textual Sentiment Analysis
+
+## Project Overview
+
+This project focuses on developing a Deep Bidirectional Long Short-Term Memory (biLSTM) network for Textual Sentiment Analysis in the context of cryptocurrency-related news and tweets. The goal is to create a model that can accurately analyze sentiment in textual data, particularly in the domain of cryptocurrency, to assist traders and investors in making informed decisions.
+
+## Features
+
+1. **Deep biLSTM Model:** The core of the project involves the implementation of a deep biLSTM model using TensorFlow. Bidirectional LSTMs are well-suited for capturing contextual information in sequential data, making them effective for sentiment analysis tasks.
+
+2. **Training Data:** The model is trained using a dataset comprising human-annotated cryptocurrency-related news and tweets. This ensures that the model learns to recognize sentiment nuances specific to the cryptocurrency domain.
+
+3. **Crypto News Scraper:** A custom-built cryptocurrency news scraper is incorporated into the project. This tool fetches the latest news articles related to cryptocurrencies from various sources, providing a continuous stream of relevant data for analysis.
+
+4. **Twitter Scraper:** Additionally, a Twitter scraper is implemented to gather real-time tweets related to various cryptocurrencies. This dynamic data source enables the model to adapt to changing market sentiments.
+
+## Potential Impact
+
+This project has the potential to significantly benefit crypto traders and investors by providing them with a tool to gauge market sentiment accurately. The sentiment analysis model, trained on a diverse dataset, can offer insights into public perceptions and reactions to cryptocurrency-related events. By integrating the news and Twitter scrapers, the system remains up-to-date with the latest information, allowing users to make more informed decisions in their investment journey.
+
+## Usage
+
+1. **Model Training:** The code for training the deep biLSTM model is provided in the `train_model.py` script. Adjust hyperparameters and paths as needed.
+
+2. **Cryptocurrency News Scraper:** The `crypto_news_scraper.py` script fetches the latest news articles. Configure sources and other parameters in the script.
+
+3. **Twitter Scraper:** The `twitter_scraper.py` script collects real-time tweets related to cryptocurrencies. Ensure that API keys and access tokens are set up correctly.
+
+4. **Inference:** Use the trained model for sentiment analysis on new data using the `predict_sentiment.py` script.
+
+## Future Enhancements
+
+- Implement a user interface for easy interaction and visualization of sentiment analysis results.
+- Explore the use of pre-trained language models for improved performance.
+- Expand the dataset to include a broader range of cryptocurrency-related text.
+
+Feel free to contribute, report issues, or suggest improvements to make this tool more robust and beneficial for the cryptocurrency community.
+
+*Note: Always exercise caution and conduct thorough research before making any financial decisions based on the results of sentiment analysis.*
 
 
-## Steps:
+
+## Installation Steps:
 
 create env
 
