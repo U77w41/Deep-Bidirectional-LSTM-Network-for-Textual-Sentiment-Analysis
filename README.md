@@ -47,12 +47,12 @@ Feel free to contribute, report issues, or suggest improvements to make this too
 create env
 
 ```bash
-conda create -n Smart_Finanncial_Assisstant python=3.10 -y
+conda create -n nlp python=3.10 -y
 ```
 
 activate env
 ```bash
-conda activate Smart_Finanncial_Assisstant
+conda activate nlp
 ```
 
 create requirements.txt
